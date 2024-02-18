@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-vibrant-springscapes-lush-green-meadows-and-a-magical-blurry-sunset-hues-image_13669336.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; /* This will make the background image cover the entire screen */
+            margin: 0; /* Remove default body margin */
+        }
+    </style>
+
+    <title>Crop Prediction</title>
+</head>
+
+<body>
+
+    <!-- Your website content goes here -->
+
+    <!-- Bootstrap JS and other scripts can be added here if needed -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRl/MJ46Bk5yiQ6vZIWSaR5uqzRj4uPTByqJOM5JCF4IS//IvoMSojFfwSw"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+  <body  >
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <style>
+        .navbar {
+          background-color: #60f7a15d; /* Dark Sea Green color for the navigation bar */
+        }
+    
+        .navbar-brand {
+          color: #3CB371; /* Medium Sea Green text color for the brand */
+          border: 1px solid #3CB371; /* Medium Sea Green border around the text */
+          padding: 5px; /* Adjust padding as needed */
+        }
+    
+        .navbar-brand:hover {
+          color: #4CAF50; /* Lime Green color on hover */
+          border-color: #4CAF50; /* Lime Green border on hover */
+        }
+    
+        .navbar-toggler-icon {
+          background-color: #6B8E23; /* Olive Drab color for the toggle icon */
+        }
+      </style>
+    </head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .navbar {
+      background-color: #2E8B57; /* Dark Sea Green color for the navigation bar */
+    }
+
+    .navbar-brand {
+      color: #3CB371; /* Medium Sea Green text color for the brand */
+      border: 1px solid #3CB371; /* Medium Sea Green border around the text */
+      padding: 5px; /* Adjust padding as needed */
+    }
+
+    .navbar-brand:hover {
+      color: #4CAF50; /* Lime Green color on hover */
+      border-color: #4CAF50; /* Lime Green border on hover */
+    }
+
+    .navbar-toggler-icon {
+      background-color: #6B8E23; /* Olive Drab color for the toggle icon */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="navbar-brand" href="{% url 'home' %}"><b style="color: #fcfcfc;">Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="/">Crop Prediction</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="{% url 'about_me' %}">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Include Bootstrap JS and jQuery libraries -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
+      <style>
+          body {
+              background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-vibrant-springscapes-lush-green-meadows-and-a-magical-blurry-sunset-hues-image_13669336.png");
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              margin: 0;
+          }
+  
+          welcome-text {
+              color: white;
+              font-family: 'Arial', sans-serif;
+              padding: 10px;
+              border-radius: 10px;
+              margin-bottom: 20px;
+          }
+  
+          video-section {
+              border: 2px solid black;
+              padding: 10px;
+              border-radius: 10px;
+              margin-top: 20px;
+          }
+  
+          video-link {
+              border: 1px solid black;
+              padding: 5px;
+              border-radius: 5px;
+              display: inline-block;
+              margin-top: 10px;
+          }
+  
+          video {
+              width: 80%;
+              height: auto;
+          }
+      </style>
+  
+      <title>Crop Prediction</title>
+  </head>
+  
+  <body>
+      <div>
+          <!-- Your website content goes here -->
+  
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #5bcf91;
+            color: #006400;
+            font-family: Arial, sans-serif;
+        }
+
+        center {
+            border: 3px solid #008000;
+            padding: 20px;
+            border-radius: 15px;
+            background: #ffffff;
+        }
+
+        h2 {
+            color: #008000;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Welcome to Crop Prediction Website. Explore below to learn how to predict a crop.</h2>
+    </center>
+</body>
+</html>
+
+  
+          <video-section>
+              <center>
+                  <video width="80%" height="80%" controls>
+                      <source src="/static/videos/movie.mp4" type="video/mp4" />
+              </center>
+              <video-link>
+                  <p style="color:rgb(0, 0, 0);">Video Source: <a href="/static/videos/movie.mp4" style="color:rgb(0, 0, 0);"></a></p>
+              </video-link>
+          </video-section>
+  
+      </div>
+  
+      <!-- Bootstrap JS and other scripts can be added here if needed -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+          integrity="sha384-wHAiFfRl/MJ46Bk5yiQ6vZIWSaR5uqzRj4uPTByqJOM5JCF4IS//IvoMSojFfwSw"
+          crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+  
+          <!DOCTYPE html>
+          <html>
+          
+          <style>
+            body {
+              color: white;
+              font-family: cursive;
+            }
+          
+            .container {
+              border: 2px solid white;
+              padding: 10px;
+              margin: 10px;
+            }
+          
+            h3, h4, h5 {
+              border-bottom: 1px solid white;
+              padding-bottom: 5px;
+              margin-bottom: 10px;
+            }
+          
+            ul {
+              list-style-type: none;
+              padding: 0;
+            }
+          
+            li {
+              border-bottom: 1px solid white;
+              padding: 5px 0;
+            }
+          
+          </style>
+          
+          <!DOCTYPE html>
+<html>
+
+<style>
+  body {
+    color: white;
+    font-family: cursive;
+  }
+
+  .container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  h3, h4, h5 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+  }
+
+</style>
+
+<body>
+
+  <div class="container">
+    <h3>This project uses machine learning to help farmers choose the best crop</h3>
+    <p>The project asks for details about the:</p>
+    <ul>
+      <li>Nitrogen</li>
+      <li>Potassium</li>
+      <li>Phosphorous</li>
+      <li>Temperature</li>
+      <li>pH</li>
+      <li>Humidity</li>
+      <li>Rainfall</li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h4>The project's machine learning model analyzes the provided information</h4>
+    <p>Once it has this information, the project's machine learning model analyzes it and generates predictions about which crop is most likely to thrive under those conditions.</p>
+    <p>The video stresses that the project is a tool to be used as part of a larger decision-making process, and that it is important to consult with experts and do further research before making any final decisions about what to plant.</p>
+  </div>
+
+  <div class="container">
+    <h5>Key insights from the video:</h5>
+    <ul>
+      <li>The crop prediction project can be a valuable tool for farmers who want to optimize their crop selection and improve their agricultural yields.</li>
+      <li>The project is based on machine learning, which means that it can analyze large amounts of data and identify patterns that humans might miss.</li>
+      <li>However, it is important to remember that the project is not perfect, and that it is important to use it with caution.</li>
+      <li>Farmers should always consult with experts and do further research before making any final decisions about what to plant.</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
