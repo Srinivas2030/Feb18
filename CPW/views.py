@@ -4,10 +4,10 @@ import pandas as pd
 from django.shortcuts import render
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-
+from django.views.decorators.csrf import csrf_protect
 def index(request):
     return render(request, 'index.html')
-
+@csrf_protect
 def analyze(request):
     crop = pd.read_csv("dataset/Crop_recommendation.csv")
 
